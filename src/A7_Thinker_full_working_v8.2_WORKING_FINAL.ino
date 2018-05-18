@@ -4,8 +4,8 @@
 
 NeoSWSerial A7_Serial(8,9);
 
-char pin[] = "9212";
-char phone_custom[] = "+306970133913";
+char pin[] = "<pin>";                       // Replace <pin> with the pin number of the provided SIM card
+char phone_custom[] = "+30<phone_number>";  // Replace <phone_number> with your phone number. For Greece we use +30 as prefix/country code
 //char incoming_number[20];
 
 
